@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <h1 class="text-2xl font-bold text-indigo-600">UzaSoko</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#" class="hover:text-indigo-600">Home</a>
+        <a href="#" class="hover:text-indigo-600">Shop</a>
+        <a href="#" class="hover:text-indigo-600">Categories</a>
+        <a href="#" class="hover:text-indigo-600">Contact</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <input type="text" placeholder="Search..." class="border rounded-lg px-3 py-1">
+        <button class="relative">
+          🛒
+          <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 rounded-full">3</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-indigo-600 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+      <div class="max-w-lg">
+        <h2 class="text-4xl font-bold mb-4">Shop Smarter, Live Better</h2>
+        <p class="mb-6">Discover amazing deals on products from mama mboga to movies, fashion to electronics, and much more.</p>
+        <a href="#" class="bg-white text-indigo-600 px-6 py-3 rounded-lg shadow hover:bg-gray-100">Start Shopping</a>
+      </div>
+      <img src="https://source.unsplash.com/500x300/?shopping,market" alt="Shopping" class="rounded-lg shadow mt-8 md:mt-0">
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-2xl font-bold mb-6">Shop by Category</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl shadow p-6 text-center hover:shadow-lg cursor-pointer">
+          🥬 <p class="mt-2 font-medium">Groceries</p>
+        </div>
+        <div class="bg-white rounded-xl shadow p-6 text-center hover:shadow-lg cursor-pointer">
+          🎬 <p class="mt-2 font-medium">Movies</p>
+        </div>
+        <div class="bg-white rounded-xl shadow p-6 text-center hover:shadow-lg cursor-pointer">
+          👗 <p class="mt-2 font-medium">Fashion</p>
+        </div>
+        <div class="bg-white rounded-xl shadow p-6 text-center hover:shadow-lg cursor-pointer">
+          📱 <p class="mt-2 font-medium">Electronics</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-2xl font-bold mb-6">Featured Products</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl shadow hover:shadow-lg p-4">
+          <img src="https://source.unsplash.com/200x200/?shoes" alt="Product" class="w-full h-40 object-cover rounded">
+          <h4 class="mt-4 font-semibold">Running Shoes</h4>
+          <p class="text-gray-600">$45.00</p>
+          <button class="mt-2 bg-indigo-600 text-white px-4 py-2 rounded-lg w-full hover:bg-indigo-700">Add to Cart</button>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg p-4">
+          <img src="https://source.unsplash.com/200x200/?clothes" alt="Product" class="w-full h-40 object-cover rounded">
+          <h4 class="mt-4 font-semibold">Casual Shirt</h4>
+          <p class="text-gray-600">$25.00</p>
+          <button class="mt-2 bg-indigo-600 text-white px-4 py-2 rounded-lg w-full hover:bg-indigo-700">Add to Cart</button>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg p-4">
+          <img src="https://source.unsplash.com/200x200/?phone" alt="Product" class="w-full h-40 object-cover rounded">
+          <h4 class="mt-4 font-semibold">Smartphone</h4>
+          <p class="text-gray-600">$299.00</p>
+          <button class="mt-2 bg-indigo-600 text-white px-4 py-2 rounded-lg w-full hover:bg-indigo-700">Add to Cart</button>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg p-4">
+          <img src="https://source.unsplash.com/200x200/?vegetables" alt="Product" class="w-full h-40 object-cover rounded">
+          <h4 class="mt-4 font-semibold">Fresh Vegetables</h4>
+          <p class="text-gray-600">$10.00</p>
+          <button class="mt-2 bg-indigo-600 text-white px-4 py-2 rounded-lg w-full hover:bg-indigo-700">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-8 mt-12 shadow-inner">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-gray-600">© 2025 UzaSoko. All rights reserved.</p>
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
